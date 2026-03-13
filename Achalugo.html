@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Valentine 💜</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="heart-container"></div>
+
+<div id="card">
+
+<div id="page1">
+
+<h1>Hiii My Sweet Babyy Girll! ✨</h1>
+
+<div class="sticker-box">
+<img src="https://i.ibb.co/8n9DfbKN/IMG-0343.gif">
+</div>
+
+<button id="startBtn" onclick="showValentine()">Click me!</button>
+
+</div>
+
+
+
+<div id="page2" style="display:none;">
+
+<h1 id="question">Will you be my valentine?</h1>
+
+<div class="sticker-box">
+<img src="https://i.ibb.co/MyYcVGD7/IMG-0344.png">
+</div>
+
+<div id="button-row">
+
+<button id="yesBtn" onclick="selectYes()">Yes</button>
+
+<button id="noBtn" onmouseover="moveNo()" onclick="moveNo()">No</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<audio id="loveSong">
+<source src="love.mp3" type="audio/mpeg">
+</audio>
+
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
